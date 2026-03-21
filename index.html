@@ -2,9 +2,12 @@
 <html lang="en">
 
 <head>
+  <link rel="stylesheet" href="styles.css">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My First Website</title>
+
 </head>
 
 <!--  
@@ -12,7 +15,15 @@ this is the body of the website that handle
 -->
 
 <body>
-  <h1>Welcome to Our First Class</h1>
+  <!-- for comments, use ctrl + / -->
+  
+  <!-- this is an example of inline styliing in html  -->
+  <h1 class="first" id="first">welcome to our class</h1>
+
+  <h1 >welcome to our </h1>
+  <h1>welcome to our </h1>
+  <h1>welcome to our </h1>
+
   <h2>Introduction to HTML</h2>
   <h3>Another Header</h3>
   <h4>HHHH</h4>
@@ -22,17 +33,26 @@ this is the body of the website that handle
 
   <p>
     Dear Sir,I hope this email finds you well. I am writing to express my interest in the position of a web developer at your company. I have recently completed my degree in Computer Science and have gained experience in HTML, CSS, and JavaScript through various projects and internships.
-</p>
+  </p>
 
 <!-- your comment does not run -->
 
-
 <p>This links to 
-  <a href="about.html"> About </a> 
+  <a  class="button" 
+      href="about.html"
+      >About</a> 
   page
 </p>
 
+<button>Click Me!</button>
 
 </body>
 
 </html>
+
+<!-- CSS Notes
+
+1. Inline Styling: inside your html elements using style attribute
+2. using <style> tag in the head section
+3. external syling
+-->

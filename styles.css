@@ -1,0 +1,46 @@
+body {
+  background-color: beige;
+}
+
+h1 {
+  color: white;
+  background: red;
+  
+}
+
+h1 .first {
+  color: chocolate;
+}
+
+h1:first-child {
+  color: blueviolet;
+}
+
+#first {
+  color:blue;
+}
+
+
+
+
+
+
+.button {
+  border-radius: 2em;
+  background-color: black;
+  color: white;
+
+  /* padding-bottom: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 2px; */
+
+  /* padding:10px; */
+
+  padding: 4px 12px;
+
+
+  /* padding: 10px; == l-10 r-10 t-10 b-10  */
+
+  /* px, em, rem, % */
+}
