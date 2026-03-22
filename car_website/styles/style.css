@@ -121,10 +121,10 @@ nav {
   top: 50%;
   transform: translateY(-50%);
   width: 65%;
-  animation: float 6s ease-in-out infinite;
+  animation: jump 6s ease-in-out infinite;
 }
 
-@keyframes float {
+@keyframes jump {
   0%, 100% {
     transform: translateY(-50%) translateX(0);
   }
