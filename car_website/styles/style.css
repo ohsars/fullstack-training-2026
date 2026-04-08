@@ -28,7 +28,7 @@ body {
   /* Use any font family as you deem fit */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
   overflow-x: hidden;
-  cursor: none;
+  /* cursor: none; */
 }
 
 /* nav styles starts here */
@@ -298,3 +298,37 @@ nav {
 }
 
 /* hero styles ends here */
+
+
+/* marquee starts here */
+
+.marquee-strip {
+  background: var(--gold);
+  padding: 14px 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-inner {
+  display: inline-flex;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-item {
+  font-size: 1.1rem;
+  letter-spacing: 0.2em;
+  color: var(--dark);
+  padding: 0 40px;
+}
+
+.marquee-dot {
+  color: var(--rust);
+}
+
+@keyframes marquee {
+  from { transform: translateX(0);}
+  to { transform: translateX(-50%);}
+}
+
+/* marquee ends here */
+
