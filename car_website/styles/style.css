@@ -205,7 +205,7 @@ nav {
   line-height: 1.8;
   color: var(--ivory);
   max-width: 420px;
-  margin-bottom: 48px;
+  margin-bottom: 48px
 }
 
 .hero-actions {
@@ -455,7 +455,7 @@ nav {
 
 .another-class {
   width: 90%; 
-  position:relative; 
+  position:relative;
   z-index:1;
   width: 85%;
   height: 100%;
