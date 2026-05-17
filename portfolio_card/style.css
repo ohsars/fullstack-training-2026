@@ -1,4 +1,6 @@
-*, *::before , *::after  {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -29,7 +31,8 @@ h1 {
 
 .card-image {
   height: 300px;
-  object-fit: cover;  /* contain, fit */
+  object-fit: cover;
+  /* contain, fit */
   border-radius: 20px 20px 0px 0px;
 
 }
@@ -57,9 +60,10 @@ h1 {
 
 .card-bio {
   text-align: justify;
+
 }
 
-@media (width > 600px) and (width < 1025px) {
+@media (min-width > 600px) and (max-width < 1025px) {
 
   .card {
     flex-direction: row;
@@ -67,15 +71,14 @@ h1 {
 
   .card-image {
     height: 350px;
-    object-fit: contain;  /* contain, fit */
+    object-fit: contain;
+    /* contain, fit */
     border-radius: 20px 0px 0px 20px;
   }
 
   .card-description {
     border-left: 1.5px solid white;
   }
-
-
-
-
 }
+
+@media (width >=1025px) {}
