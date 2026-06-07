@@ -4,7 +4,7 @@
 
 
 function greet(name) {
-  console.log('Welcome back,' + name +  ' How are you?');
+  console.log('Welcome back,' + name +  ' How are you?'); //concatenation -- string variable
   console.log(`Welcome back, ${name}! How are you?`); // mostly prefered
   console.log(`Welcome back, ${name}! How are you?`); // mostly prefered
 }
@@ -13,6 +13,10 @@ function greet(name) {
 greet("Adedeji");
 // greet();
 // greet(12)
+
+
+
+
 
 function calculate_numbers (name, val, operator) {
 
@@ -34,19 +38,7 @@ function calculate_numbers (name, val, operator) {
       break;
 
     default:
+      console.log(`Stopp calculation!!!`)
       break;
   }
 }
-
-
-calculate_numbers("Adedeji " , 202, "+");
-calculate_numbers("Adeola " , 202, "/");
-calculate_numbers("Ebenezer " , 25, "*");
-calculate_numbers("Aishat " , 20, "-");
-calculate_numbers("Someone " , 21, "+");
-calculate_numbers("Anyone " , 2, "/");
-calculate_numbers("Whyyy Me " , 22, "*");
-
-
-console.log('hellooooooo adedeji!');
-console.log(`hellooooooo adedeji!`)

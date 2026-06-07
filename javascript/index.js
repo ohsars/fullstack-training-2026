@@ -1,35 +1,25 @@
-// using  switch statement
 
-// let day = "Monday";
+// function : named function, arrow function
 
-// if (day === "Monday") {
-//     console.log("Today is Monday");
-// } else if (day === "Tuesday") {
-//     console.log("Today is Tuesday");
-// } else if (day === "Wednesday") {
-//     console.log("Today is Wednesday");
-// } else if (day === "Thursday") {
-//     console.log("Today is Thursday");
-// } else if (day === "Friday") {
-//     console.log("Today is Friday");
-// } else if (day === "Saturday") {
-//     console.log("Today is Saturday");
-// } else if (day === "Sunday") {
-//     console.log("Today is Sunday");
-// } else {
-//     console.log("Invalid day");
-// }
+function anything(anything) {
+  console.log(`hello, ${anything}`);
+}
 
-// let timee = 15;
+// anything(0);  // integers
+// anything('hiiiiii');  // strings
+// anything(true);  // boolean
 
-// (timee <=15) ? console.log(`I am something, but i need ${timee} and ${timee + timee}`)  : console.log(`I am something, but i need ${timee - 1}`);
+// props, value
 
+function addFive(number) {
+  console.log(parseInt(`${number}`) + 5) // 5 + 200
+  // console.log(`${number}` + 5) // 5 + 200
+  // parseInt = transform string into integer (number)
+}
 
-let age = 65;
+addFive("5");
 
-const status = (age >= 18) ? "Adult" : "Minor";
+// "200" ==> 200
 
-console.log(`Your status: ${status}.`);
-
-
-status === "Adult" ? console.log("You are an adult.") : console.log("You are a minor.");
+// const funnyNumbers = 12123357575; //int
+// console.log(typeof(funnyNumbers));
