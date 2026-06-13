@@ -1,8 +1,6 @@
-// write a function that adds 5 + your number(value) + 5
-
-function addFivePlusFive(num) {
-  console.log(5+ parseInt(`${num}`));
+const getGrade = () => {
+  // if/else conditioning
 }
 
-// function call
-addFivePlusFive(1);
+// objects, arrays
+
