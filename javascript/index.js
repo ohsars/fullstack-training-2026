@@ -25,8 +25,8 @@ leftOverFruits.pop();
 
 fruitBasket.push(...fruitFromMarket, ...leftOverFruits);
 
-console.log(fruitBasket);
-console.log(fruitBasket.length);
+// console.log(fruitBasket);
+// console.log(fruitBasket.length);
 
 // console.log(fruits[1] + " and " + fruits[2]);
 
@@ -46,20 +46,20 @@ console.log(fruitBasket.length);
 
 
 
+const tasks = ["bath", "eat", "sleep", "write codes", "hghghghg", "bjfbbnbvnbvnbv", "bnmbnmfff", "jbjdbdbbd", leftOverFruits, "jgkfhhghdjkg", "im here", "i'm bacxckkkkkk"];
+
+const lastSixTasks = tasks.slice(-6); //last six items in the array
+// console.log(lastSixTasks);
+// console.log(tasks.splice(5));
+// console.log(tasks.slice(-4));
 
 
 
+const colors = ["blue", 'red', 'green', 'orange']; //4
+//             [  0    ,  1   ,     2 ,     3   ]
 
+// classic loop = identifier that travels {checks evry item in the array}
 
-
-
-
-
-
-
-
-
-const number = [1,27,7,7,72,2,2,,87,12,123333,0.2,0.3222,-2]; // integer
-const mixed = [1, 'boy', true, null, undefined, 1, 4, -3, 'bola'];
-const empty = [];
-
+for (let i = 0; i < colors.length; i++) {
+  console.log(`i am the ${i} number, and the fruit is ${colors[i]}`)
+}
