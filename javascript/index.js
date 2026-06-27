@@ -55,11 +55,40 @@ const lastSixTasks = tasks.slice(-6); //last six items in the array
 
 
 
-const colors = ["blue", 'red', 'green', 'orange']; //4
-//             [  0    ,  1   ,     2 ,     3   ]
+const colors = ["blue", 'red', 'green', 'orange']; //4 items
+//             [  0    ,  1   ,     2 ,     3   ] 3
+//             [  color , color ,color , color   ] 3
 
-// classic loop = identifier that travels {checks evry item in the array}
-
+// classic loop = identifier that travels {checks every item in the array}
 for (let i = 0; i < colors.length; i++) {
-  console.log(`i am the ${i} number, and the fruit is ${colors[i]}`)
+  // console.log(`i am the number ${i} , and the fruit is ${colors[i]}`)
 }
+
+const scores = [12, 34, 45, 67, 87, 90, 97, 100, 43, 9, 6];
+
+
+for (const score of scores) {
+  // console.log(`your score is ${score}`);
+}
+
+for (const color of colors) {
+  // console.log(`i am color ${color}`);
+}
+
+// for each
+colors.forEach((er, i) => {
+  // console.log(er, i)
+})
+
+
+
+const numbers = [12, 34, 45, 67, 87, 90, 97, 100, 43, 9, 6, 20, 20, 43, 43, -23, -40];
+
+const doubledNumbers = numbers.map(n => n * 0);
+const evenNumbers = numbers.filter(n => n % 2 ===0); // even numbers divisible by 2
+const oddNumbers = numbers.filter(n => n % 2 ===1); // odd numbers
+const totalNumbers = numbers.reduce((n, sum ) => n + sum, 0);
+// console.log(doubledNumbers);
+// console.log(`from ${numbers}, only ${evenNumbers} are even.`);
+// console.log(`from ${numbers}, only ${oddNumbers} are odd.`);
+console.log(totalNumbers);
