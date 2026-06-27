@@ -82,7 +82,7 @@ colors.forEach((er, i) => {
 
 
 
-const numbers = [12, 34, 45, 67, 87, 90, 97, 100, 43, 9, 6, 20, 20, 43, 43, -23, -40];
+const numbers = [12,34, 45, 67, 87, 90, 97, 100, 43, 9, 6, 20, 20, 43, 43, -23, -40];
 
 const doubledNumbers = numbers.map(n => n * 0);
 const evenNumbers = numbers.filter(n => n % 2 ===0); // even numbers divisible by 2
